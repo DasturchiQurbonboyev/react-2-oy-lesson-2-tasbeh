@@ -24,7 +24,7 @@ function Main() {
     return (
         <div className='mx-auto max-w-[800px] w-full ' >
             <form className="form-horizontal flex gap-[10px] flex-col items-center" onSubmit={onSubmit}>
-                <div className='mt-20 flex justify-center items-center gap-8'>
+                <div className='mt-2 flex justify-center items-center gap-8'>
                     <input className='border-none bg-[#222222] py-3 rounded-[50px] text-white outline-none px-8 w-[200px] form-control' placeholder="Enter number" type="number" name="increment" />
                     <button className='border-none rounded-[50px]  bg-[#222222] px-8 py-3 text-white p-2' type="submit">Save</button>
                     <a className='text-white bg-[#222222] rounded-[50px] py-3 px-8    ' href="">reset</a>
